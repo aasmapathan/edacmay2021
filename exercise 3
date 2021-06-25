@@ -1,0 +1,21 @@
+use edac;
+select initcap(Sname) from Supplier;
+select upper(Sname) from Supplier; 
+select lower(Sname) from Supplier;
+select replace ( Sname ,'la' , 'ro') from Supplier;
+select length (Sname) from Supplier;
+select * from Supplier where soundex(Sname)=soundex('bloke');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
